@@ -1,0 +1,171 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair-Display', serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #fff;
+    margin-top: 80px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Header Styles */
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/bg-img/background-image.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Navigation Styles */
+nav {
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BFBFBF;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    width: 145px;
+    margin-left: 30px;
+}
+
+nav ul {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+nav ul li a,
+nav ul li i {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after,
+nav ul li i::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #D4AF37;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after,
+nav ul li i:hover::after {
+    width: 100%;
+}
+
+/* Header Text Styles */
+.header-text {
+    margin-top: 13%;
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.header-text h1 {
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.header-text button {
+    position: absolute;
+    right: 30%;
+    top: 50%;
+}
+
+/* Button Styles */
+button {
+    color: black;
+    border-radius: 10px;
+    background-color: #D4AF37;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.header-text button:hover{
+    background-color: #464646;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #33333372;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+/* Social Icons Styles */
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons:hover {
+    background-color: #464646;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}

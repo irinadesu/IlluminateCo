@@ -1,0 +1,242 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(assets/bg-img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+/* Header Section */
+#header {
+    width: 100%;
+    height: 30%;
+}
+nav {
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BFBFBF;
+    color: black;
+}
+.logo {
+    width: 130px;
+    margin-left: 30px;
+}
+nav ul {
+    margin-right: 15px;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+nav ul li a, nav ul li i {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+nav ul li a::after, nav ul li i::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #D4AF37;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after, nav ul li i:hover::after {
+    width: 100%;
+}
+
+/* Headings */
+h1 {
+    font-weight: 600;
+    font-size: 40px; 
+    color: white;
+    text-align: left; 
+    margin-bottom: 20px;
+}
+
+/* Form Input Focus Styles */
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 12px;
+    color: #0d0d0d;
+    top: -5px;
+    transition: all 0.225s ease;
+}
+.styled-input {
+    width: 650px;
+    margin: 1rem;
+    position: relative;
+    border-radius: 4px;
+}
+.styled-input label {
+    color: #0d0c0c;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+.styled-input.wide {
+    width: 100%;
+}
+
+/* Input and Textarea Styles */
+input:focus, textarea:focus {
+    outline: 0;
+}
+textarea {
+    width: 100%;
+    min-height: 12em;
+}
+.contact-right input::placeholder, .contact-right textarea::placeholder {
+    color: rgb(255, 253, 253);
+}
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+.container button {
+    position: absolute;
+    right: 4%;
+    top: 80%;
+    margin-bottom: 20px;
+    width: 10%;
+    height: 6%;
+    font-weight: bold;
+}
+
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-left, .contact-right {
+    padding: 20px;
+}
+.contact-left {
+    flex-basis: 35%;
+    text-align: left;
+    color: white;
+}
+.contact-left p {
+    margin-top: 10px;
+}
+.contact-left p i {
+    color: #d4af37fd;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 15px;
+    color: #fff8f8;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover {
+    color: #D4AF37;
+    transform: translateY(-5px);
+}
+.contact-right {
+    flex-basis: 60%;
+}
+.contact-right form {
+    width: 100%;
+}
+.contact-right input, .contact-right textarea {
+    width: 100%;
+    border: 0;
+    background: #43424249;
+    padding: 15px;
+    margin: 15px 0;
+    color: rgb(255, 253, 253);
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn.btn2 {
+    display: inline-block;
+    background-color: #d4af3764;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contact-right button:hover {
+    background: rgba(119, 116, 119, 0.626);
+}
+.subtitle {
+    color: rgb(236, 226, 226);
+    font-size: 70px; 
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #33333372;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-content p {
+    margin: 0;
+}
+footer .social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+footer .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+footer .social-icons:hover {
+    color: #D4AF37;
+}
+footer .social-icons li:last-child {
+    margin-right: 0;
+}
+footer .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Main Navbar -->
+        <div id="header">
+            <nav>
+                <img src="assets/logo/logo.png" class="logo">
+                <ul>
+                    <li><a href="shopHomePage.html">Home</a></li>
+                    <li><a href="shopAboutPage.html">About</a></li>
+                    <li><a href="shopProducts.html">Products</a></li>
+                    <li><i class="fa fa-sign-out"></i></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!---------Contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Us</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>Illuminate&co@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>09398959949</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/britney.rafer" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-square" aria-hidden="false"></i></a>
+                        <a href="https://www.instagram.com/n.brtny?igsh=dmZ0OXh2bGRtN3Vl" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="false"></i></a>
+                        <a href="https://x.com/vri19425037?s=09" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter-square" aria-hidden="false"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Illuminate & Co. All rights reserved.</p>
+                <ul class="social-icons">
+    
+                    <li><a href="https://web.facebook.com/britney.rafer" target="_blank" rel="noopener noreferrer"><i
+                                class="fa fa-facebook-square" aria-hidden="false"></i></a></li>
+                    <li><a href="https://www.instagram.com/n.brtny?igsh=dmZ0OXh2bGRtN3Vl" target="_blank"
+                            rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="false"></i></a></li>
+                    <li> <a href="https://x.com/vri19425037?s=09" target="_blank" rel="noopener noreferrer"><i
+                                class="fa fa-twitter-square" aria-hidden="false"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+    <script>
+        /*logout*/
+
+        var logoutIcon = document.querySelector(".fa-sign-out");
+
+        logoutIcon.addEventListener("click", function () {
+            var confirmLogout = confirm("Click OK if you want to log out.");
+            if (confirmLogout) {
+                alert("Logged out");
+                window.location.href = "index.html";
+            }
+        });
+    </script>
+
+</body>
+
+</html>

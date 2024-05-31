@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "name": "Cubic Raw",
+        "price": 150,
+        "image": "assets/Unscented/unscented1.jpg",
+        "category": "unscented"
+    },
+    {
+        "id": 2,
+        "name": "Stone Cue",
+        "price": 650,
+        "image": "assets/Unscented/unscented2.jpg",
+        "category": "unscented"
+    },
+    {
+        "id": 3,
+        "name": "Pink Serenade",
+        "price": 375,
+        "image": "assets/Unscented/unscented3.png",
+        "category": "unscented"
+    },
+    {
+        "id": 4,
+        "name": "Calm Breeze",
+        "price": 150,
+        "image": "assets/Unscented/unscented4.png",
+        "category": "unscented"
+    },
+    {
+        "id": 5,
+        "name": "Rosie Scented Candle",
+        "price": 750,
+        "image": "assets/Scented/scented1.jpg",
+        "category": "scented"
+    },
+    {
+        "id": 6,
+        "name": "Green Apple Scented",
+        "price": 300,
+        "image": "assets/Scented/scented2.jpeg",
+        "category": "scented"
+    },
+    {
+        "id": 7,
+        "name": "Bear Sea Sceated",
+        "price": 300,
+        "image": "assets/Scented/scented3.jpg",
+        "category": "scented"
+    },
+    {
+        "id": 8,
+        "name": "Strawberry Shortcake",
+        "price": 750,
+        "image": "assets/Scented/scented4.jpg",
+        "category": "scented"
+    },
+    {
+        "id": 9,
+        "name": "Midnight Blue (Citrus Scented)",
+        "price": 400,
+        "image": "assets/Scented/scented5.png",
+        "category": "scented"
+    },
+    {
+        "id": 10,
+        "name": "Blue Spectre (Mint Scented)",
+        "price": 350,
+        "image": "assets/Scented/scented6.png",
+        "category": "scented"
+    },
+    {
+        "id": 11,
+        "name": "Tuscany (Eucalyptus)",
+        "price": 450,
+        "image": "assets/Scented/scented7.jpg",
+        "category": "scented"
+    },
+    {
+        "id": 12,
+        "name": "Strawberry Scented",
+        "price": 300,
+        "image": "assets/Scented/scented8.jpg",
+        "category": "scented"
+    },
+    {
+        "id": 13,
+        "name": "Queen Statue",
+        "price": 850,
+        "image": "assets/deco/deco1.png",
+        "category": "decorative"    },
+    {
+        "id": 14,
+        "name": "Flowery Field",
+        "price": 300,
+        "image": "assets/deco/deco2.png",
+        "category": "decorative"    },
+    {
+        "id": 15,
+        "name": "Sea Shell",
+        "price": 350,
+        "image": "assets/deco/deco3.jpg",
+        "category": "decorative"    },
+    {
+        "id": 16,
+        "name": "Head Statue",
+        "price": 850,
+        "image": "assets/deco/deco4.png",
+        "category": "decorative"    },
+    {
+        "id": 17,
+        "name": "Tulips",
+        "price": 400,
+        "image": "assets/deco/deco5.png",
+        "category": "decorative"
+    },
+    {
+        "id": 18,
+        "name": "Beeswax",
+        "price": 450,
+        "image": "assets/beeswax/bee1.jpg",
+        "category": "beeswax"
+    },
+    {
+        "id": 19,
+        "name": "BeezWax",
+        "price": 750,
+        "image": "assets/beeswax/bee2.png",
+        "category": "beeswax"
+    },
+    {
+        "id": 20,
+        "name": "Honey Bee",
+        "price": 200,
+        "image": "assets/beeswax/bee3.png",
+        "category": "beeswax"
+    },
+    {
+        "id": 21,
+        "name": "Deco Beez",
+        "price": 950,
+        "image": "assets/beeswax/bee4.png",
+        "category": "beeswax"
+    },
+    {
+        "id": 22,
+        "name": "Scented Soy",
+        "price": 550,
+        "image": "assets/soywax/soy1.png",
+        "category": "soywax"
+    },
+    {
+        "id": 23,
+        "name": "Handmade Soy",
+        "price": 950,
+        "image": "assets/soywax/soy2.png",
+        "category": "soywax"
+    },
+    {
+        "id": 24,
+        "name": "Lavender Scented Soy Candle",
+        "price": 950,
+        "image": "assets/soywax/soy3.png",
+        "category": "soywax"
+    },
+    {
+        "id": 25,
+        "name": "Mint Soy Candle",
+        "price": 950,
+        "image": "assets/soywax/soy4.png",
+        "category": "soywax"
+    },
+    {
+        "id": 26,
+        "name": "Flowery Field",
+        "price": 1250,
+        "image": "assets/deco/deco6.jpg",
+        "category": "decorative"   
+     },
+     {
+        "id": 27,
+        "name": "Gemini Gem",
+        "price": 975,
+        "image": "assets/deco/deco7.png",
+        "category": "decorative"    
+    },
+    {
+        "id": 18,
+        "name": "Slayable Candle Deco",
+        "price": 1350,
+        "image": "assets/deco/deco8.png",
+        "category": "decorative"   
+     }
+
+    
+
+]
+
