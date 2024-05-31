@@ -31,7 +31,7 @@
         "id": 5,
         "name": "Rosie Scented Candle",
         "price": 750,
-        "image": "assets/Scented/scented1.jpg",
+        "image": "assets/scented/scented1.jpg",
         "category": "scented"
     },
     {
@@ -45,42 +45,42 @@
         "id": 7,
         "name": "Bear Sea Sceated",
         "price": 300,
-        "image": "assets/Scented/scented3.jpg",
+        "image": "assets/scented/scented3.jpg",
         "category": "scented"
     },
     {
         "id": 8,
         "name": "Strawberry Shortcake",
         "price": 750,
-        "image": "assets/Scented/scented4.jpg",
+        "image": "assets/scented/scented4.jpg",
         "category": "scented"
     },
     {
         "id": 9,
         "name": "Midnight Blue (Citrus Scented)",
         "price": 400,
-        "image": "assets/Scented/scented5.png",
+        "image": "assets/scented/scented5.png",
         "category": "scented"
     },
     {
         "id": 10,
         "name": "Blue Spectre (Mint Scented)",
         "price": 350,
-        "image": "assets/Scented/scented6.png",
+        "image": "assets/scented/scented6.png",
         "category": "scented"
     },
     {
         "id": 11,
         "name": "Tuscany (Eucalyptus)",
         "price": 450,
-        "image": "assets/Scented/scented7.jpg",
+        "image": "assets/scented/scented7.jpg",
         "category": "scented"
     },
     {
         "id": 12,
         "name": "Strawberry Scented",
         "price": 300,
-        "image": "assets/Scented/scented8.jpg",
+        "image": "assets/scented/scented8.jpg",
         "category": "scented"
     },
     {
